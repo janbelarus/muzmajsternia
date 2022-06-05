@@ -1,1 +1,1 @@
-# muzmajsternia
+https://janbelarus.github.io/muzmajsternia/
