@@ -17,16 +17,16 @@
   }
   
   :root {
-    --body-color: #000;
-    --text-color: #fff;
-    --hover-color: #fff;
-    --white-color: #ffffff;
-    --white-color-two: #ffffff;
-    --black-color: #000;
-    --black-color-two: #000;
-    --skin-color: #BDAE82;
-    --skin-color-two:#BDAE82;
-    --contacts-background:rgba(0, 0, 0, 0.5);
+    --body-color: white;
+    --text-color: black;
+    --hover-color: black;
+    --white-color: black;
+    --white-color-two: white;
+    --black-color: white;
+    --black-color-two: white;
+    --skin-color: cornflowerblue;
+    --skin-color-two: cornflowerblue;
+    --contacts-background: white;
   }
   
   .light-theme {
@@ -50,7 +50,7 @@
   html {
     scroll-behavior: smooth; 
     overflow-x: hidden;
-    background-color: var(--black-color);
+    background-color: var(--white-color);
     height: 100%;
   }
   
@@ -445,7 +445,7 @@
   margin-left: 20px;
   }
   
-  .portfolio {
+  .photo {
   width: 1440px;
   height: 1500px;
   } 
@@ -504,7 +504,7 @@
   margin: 0 auto;
   }
   
-  .portfolio-image {
+  .photo-image {
   width: 450px; 
   height: 560px; 
   }
