@@ -1,20 +1,7 @@
 @font-face {
-    font-family: 'Merriweather';
-    src: url("assets/fonts/Merriweather-Bold.ttf");
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    src: url("assets/fonts/Inter-Regular.ttf");
-    font-weight: 400;
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    src: url("assets/fonts/Inter-Bold.ttf");
-    font-weight: 700;
-  }
+  font-family: Piasniar;
+   src: url("assets/fonts/Piasniar.ttf");
+ }
   
   :root {
     --body-color: white;
@@ -111,7 +98,7 @@
     .nav {
       display: flex;
       justify-content: space-evenly;
-      font-family: Inter;
+      font-family: Piasniar;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
