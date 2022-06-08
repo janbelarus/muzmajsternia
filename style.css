@@ -1,44 +1,19 @@
 @font-face {
-    font-family: 'Merriweather';
-    src: url("assets/fonts/Merriweather-Bold.ttf");
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    src: url("assets/fonts/Inter-Regular.ttf");
-    font-weight: 400;
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    src: url("assets/fonts/Inter-Bold.ttf");
-    font-weight: 700;
-  }
+  font-family: Comfortaa;
+   src: url("assets/fonts/Comfortaa-VariableFont_wght.ttf");
+ }
   
   :root {
-    --body-color: #000;
-    --text-color: #fff;
-    --hover-color: #fff;
-    --white-color: #ffffff;
-    --white-color-two: #ffffff;
-    --black-color: #000;
-    --black-color-two: #000;
-    --skin-color: #BDAE82;
-    --skin-color-two:#BDAE82;
-    --contacts-background:rgba(0, 0, 0, 0.5);
-  }
-  
-  .light-theme {
-    --white-color: #000;
-    --white-color-two: #ffffff;
-    --black-color: #ffffff;
-    --black-color-two: #BDAE82;
-    --skin-color: #ffffff;
-    --skin-color-two:#000;
-    --contacts-background:rgba(255, 255, 255, 0.5);
-      background-color: white;
-      transition: 0.7s;
+    --body-color: white;
+    --text-color: black;
+    --hover-color: black;
+    --white-color: black;
+    --white-color-two: black;
+    --black-color: white;
+    --black-color-two: white;
+    --skin-color: cornflowerblue;
+    --skin-color-two: cornflowerblue;
+    --contacts-background: white;
   }
   
   * {
@@ -50,7 +25,7 @@
   html {
     scroll-behavior: smooth; 
     overflow-x: hidden;
-    background-color: var(--black-color);
+    background-color: var(--white-color);
     height: 100%;
   }
   
@@ -71,19 +46,19 @@
     }
   
     ::-webkit-scrollbar{
-      width: 3px;
+      width: 5px;
       }
     ::-webkit-scrollbar-track{
-      background: #bdae8271;
+      background: white;
     }
     ::-webkit-scrollbar-thumb{
-      height: 3px;
-      background: #BDAE82;
+      height: 5px;
+      background: cornflowerblue;
       border-radius: 25%;
-      border: 3px solid #BDAE82;
+      border: 5px solid cornflowerblue;
     }
     ::-webkit-scrollbar-thumb:hover{
-      background: #968a67;
+      background: white;
     }
     
     .header {
@@ -111,7 +86,7 @@
     .nav {
       display: flex;
       justify-content: space-evenly;
-      font-family: Inter;
+      font-family: Comfortaa;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
@@ -445,7 +420,7 @@
   margin-left: 20px;
   }
   
-  .portfolio {
+  .photo {
   width: 1440px;
   height: 1500px;
   } 
@@ -504,7 +479,7 @@
   margin: 0 auto;
   }
   
-  .portfolio-image {
+  .photo-image {
   width: 450px; 
   height: 560px; 
   }
