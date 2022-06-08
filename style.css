@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Piasniar;
-   src: url("assets/fonts/Piasniar.ttf");
+  font-family: Comfortaa;
+   src: url("assets/fonts/Comfortaa-VariableFont_wght.ttf");
  }
   
   :root {
@@ -8,24 +8,12 @@
     --text-color: black;
     --hover-color: black;
     --white-color: black;
-    --white-color-two: white;
+    --white-color-two: black;
     --black-color: white;
     --black-color-two: white;
     --skin-color: cornflowerblue;
     --skin-color-two: cornflowerblue;
     --contacts-background: white;
-  }
-  
-  .light-theme {
-    --white-color: #000;
-    --white-color-two: #ffffff;
-    --black-color: #ffffff;
-    --black-color-two: #BDAE82;
-    --skin-color: #ffffff;
-    --skin-color-two:#000;
-    --contacts-background:rgba(255, 255, 255, 0.5);
-      background-color: white;
-      transition: 0.7s;
   }
   
   * {
@@ -58,19 +46,19 @@
     }
   
     ::-webkit-scrollbar{
-      width: 3px;
+      width: 5px;
       }
     ::-webkit-scrollbar-track{
-      background: #bdae8271;
+      background: white;
     }
     ::-webkit-scrollbar-thumb{
-      height: 3px;
-      background: #BDAE82;
+      height: 5px;
+      background: cornflowerblue;
       border-radius: 25%;
-      border: 3px solid #BDAE82;
+      border: 5px solid cornflowerblue;
     }
     ::-webkit-scrollbar-thumb:hover{
-      background: #968a67;
+      background: white;
     }
     
     .header {
@@ -98,7 +86,7 @@
     .nav {
       display: flex;
       justify-content: space-evenly;
-      font-family: Piasniar;
+      font-family: Comfortaa;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
