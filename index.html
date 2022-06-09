@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="be">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Majsternia</title>
+    <title>Музычная Майстэрня</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
 </head>
@@ -15,11 +15,11 @@
             <div class="nav">
             <nav>
                 <ul class="nav-list">
-                  <li class="nav-item"><a href="#majsternia" class="nav-link" data-i18n="majsternia">Майстэрня</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link" data-i18n="about">Аб Майстэрні</a></li>
                   <li class="nav-item"><a href="#photo" class="nav-link" data-i18n="photo">Фота</a></li>
                   <li class="nav-item"><a href="#video" class="nav-link" data-i18n="video">Відэа</a></li>
-                  <li class="nav-item"><a href="#info" class="nav-link" data-i18n="info">Інфармацыя</a></li>
-                  <li class="nav-item"><a href="#contacts" class="nav-link" data-i18n="contacts">Кантакты</a></li>
+                  <li class="nav-item"><a href="#contacts" class="nav-link" data-i18n="contacts">Арганізатары</a></li>
+                  <li class="nav-item"><a href="#info" class="nav-link" data-i18n="info">Правілы</a></li>
                 </ul>
                 </nav>
                 <div class="switch">
@@ -36,16 +36,15 @@
         <div class="container">
         <div class="main-container">
             <section class="hero-container">
-                <h1 class="h1" data-i18n="hero-title">Майстэрня</h1>
+                <h1 class="h1" data-i18n="hero-title">Музычная Майстэрня</h1>
                 <p class="text" data-i18n="hero-text">
-                  З 27 па 31 ліпеня ў Івянцы адбудзецца чарговая Музычная Майстэрня.
-                  5 дзён музыкі, малітвы, яднання пад дэвізам:
-                  "Не бойцеся жыць для любові!"
+                  27-31 ліпеня 2022
+                  Івянец
                   </p>
                 <button class="button-hero" data-i18n="hire">Рэгістрацыя</button>
             </section>    
-            <section class="majsternia">
-                <h2 class="section-title" id="majsternia" data-i18n="majsternia">Майстэрня</h2>
+            <section class="about">
+                <h2 class="section-title" id="about" data-i18n="about">Майстэрня</h2>
                 <div class="skills-list">
                     <div class="skills-items">
                     <img class="skills-item" src="./assets/svg/Vector(1).svg" alt="music">
@@ -70,7 +69,7 @@
                 </div>
             </section>
             <section class="photo">
-                <h2 class="section-title" id="photo" data-i18n="photo">Фотаздымкі</h2>
+                <h2 class="section-title" id="photo" data-i18n="photo">Фота</h2>
                 <div class="photo-buttons">
                   <button class="photo-button" data-season="first" data-i18n="first">2003-2007</button>
                   <button class="photo-button" data-season="second" data-i18n="second">2008-2012</button>        
@@ -92,8 +91,8 @@
                 <button class="player-button"></button>
                 </div>
             </section>
-            <section class="info" id="info">
-              <h2 class="section-title" data-i18n="info">Інфармацыя</h2>
+            <section class="contacts" id="contacts">
+              <h2 class="section-title" data-i18n="contacts">Арганізатары</h2>
             <div class="info-list">
               <div class="info-item">
                 <div class="info-class">
@@ -134,22 +133,64 @@
                       <span data-i18n="info-desc-3-span-4" class="span">апякун для</span>
                       <span data-i18n="info-desc-3-span-5" class="span">непаўналетніх</span>
                 </div>
-                    <button class="info-button" data-i18n="order">Рэгістрацыя</button>
+                    <button class="contacts-button" data-i18n="order">Рэгістрацыя</button>
               </div>
             </div>
           </div>
           </section>
-            <section class="contacts" id="contacts">
-                <div class="contact">
-                  <div class="contacts-item">
-                    <h2 class="contactme" data-i18n="contact-me">Кантакты</h2>
-                    <input type="email" placeholder="Пошта" data-i18n="email">
-                    <input type="tel" placeholder="Тэлефон" data-i18n="phone">
-                    <textarea placeholder="Паведамленне" data-i18n="message"></textarea>
-                    <button class="conacts-button" data-i18n="send-message">Адправіць</button>
-                  </div>
-                  </div>
-            </section>
+          <section class="video" id="video">
+            <h2 class="section-title" data-i18n="video">Відэа</h2>
+            <div class="player">
+            <button class="player-button"></button>
+            </div>
+        </section>
+        <section class="info" id="info">
+          <h2 class="section-title" data-i18n="contacts">Правілы</h2>
+        <div class="info-list">
+          <div class="info-item">
+            <div class="info-class">
+              <h3 data-i18n="info-title-1">Інструмент</h3>
+                <span class="dollars">50 руб</span>
+            <div class="span-list">
+                  <span data-i18n="info-desc-1-span-1" class="span">Просьба мець з сабой</span>
+                  <span data-i18n="info-desc-1-span-2" class="span">спеўнік з мінулых гадоў</span>
+                  <span data-i18n="info-desc-1-span-3" class="span">(у каго ёсць)</span>
+                  <span data-i18n="info-desc-1-span-4" class="span">нататнікі і</span>
+                  <span data-i18n="info-desc-1-span-5" class="span">музычныя інструменты</span>
+            </div>
+                <button class="info-button" data-i18n="order">Рэгістрацыя</button>
+          </div>
+        </div>
+          <div class="info-item">
+            <div class="info-class">
+            <h3 data-i18n="info-title-2">Намёт</h3>
+              <span class="dollars">50 руб</span>
+                <div class="span-list">
+                  <span data-i18n="info-desc-2-span-1" class="span">З сабой неабходна</span>
+                  <span data-i18n="info-desc-2-span-2" class="span">мець спальнік і</span>
+                  <span data-i18n="info-desc-2-span-3" class="span">турыстычны дыванок</span>
+                  <span data-i18n="info-desc-2-span-4" class="span">па магчымасці</span>
+                  <span data-i18n="info-desc-2-span-5" class="span">уласны намёт</span>
+            </div>
+                <button class="info-button" data-i18n="order">Рэгістрацыя</button>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-class">
+              <h3 data-i18n="info-title-3">Дазвол</h3>
+              <span class="dollars">50 руб</span>
+                <div class="span-list">
+                  <span data-i18n="info-desc-3-span-1" class="span">Пісьмовы</span>
+                  <span data-i18n="info-desc-3-span-2" class="span">дазвол ад</span>
+                  <span data-i18n="info-desc-3-span-3" class="span">бацькоў і</span>
+                  <span data-i18n="info-desc-3-span-4" class="span">апякун для</span>
+                  <span data-i18n="info-desc-3-span-5" class="span">непаўналетніх</span>
+            </div>
+                <button class="contacts-button" data-i18n="order">Рэгістрацыя</button>
+          </div>
+        </div>
+      </div>
+      </section>
 </div>
         </div>
     </main>
