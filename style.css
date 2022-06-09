@@ -215,8 +215,8 @@
   
     .logo {
       transition: 0.3s;
-      height: 120px;
-      width: 120px;
+      height: 100px;
+      width: 100px;
       cursor: pointer;
       margin: 0;
       margin-bottom: -55px;
