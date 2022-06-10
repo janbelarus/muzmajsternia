@@ -188,7 +188,7 @@
       filter: invert(41%) sepia(35%) saturate(3271%) hue-rotate(195deg) brightness(99%) contrast(87%);
     }
   
-    .by {
+    .be {
       padding-right: 13px;
     }
   
@@ -197,7 +197,7 @@
       padding-right: 35px;
     }
   
-    .by,
+    .be,
     .pl {
       color: var(--black-color);
       text-decoration: none;
@@ -206,9 +206,9 @@
       transition: 0.3s;
     }
   
-    .by:hover,
+    .be:hover,
     .pl:hover,
-    .by.active,
+    .be.active,
     .pl.active {
       color: cornflowerblue;
     }
