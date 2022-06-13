@@ -1,19 +1,19 @@
 @font-face {
-  font-family: Comfortaa;
-   src: url("assets/fonts/Comfortaa-Light.ttf");
+  font-family: Manrope;
+   src: url("assets/fonts/Manrope-Light.ttf");
  }
   
  :root {
-  --body-color: ivory;
+  --body-color: white;
   --text-color: black;
-  --hover-color: ivory;
-  --white-color: ivory;
-  --white-color-two: ivory;
+  --hover-color: white;
+  --white-color: white;
+  --white-color-two: white;
   --black-color: #000;
   --black-color-two: #000;
   --skin-color: cornflowerblue;
   --skin-color-two: cornflowerblue;
-  --contacts-background: ivory;
+  --contacts-background: white;
 }
 
   * {
@@ -86,14 +86,14 @@
     .nav {
       display: flex;
       justify-content: space-evenly;
-      font-family: Comfortaa;
+      font-family: Manrope;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
       margin: 20px 0;
       padding: 0;
       min-width: 570px;
-      color: black;
+      color: white;
     }
     
     .menu {
@@ -112,7 +112,7 @@
   .menu-button {
     width: 50px;
     height: 2px;
-    background: var(--black-color);
+    background: var(--white-color);
     transition: all .5s ease-in-out;
     margin: 0;
   }
@@ -123,7 +123,7 @@
     position: absolute;
     width: 50px;
     height: 2px;
-    background: var(--black-color);
+    background: var(--white-color);
     transition: all .5s ease-in-out;
   }
     
@@ -163,7 +163,7 @@
     .nav-list {
       list-style-type: none;
       display: flex;
-      color: var(--black-color);
+      color: var(--white-color);
       padding: 0;
       margin: 0;
       line-height: 50px;
@@ -174,55 +174,78 @@
     
     .nav-item {
         margin-right: 30px;
-        transition: .3s;
     }
   
     .nav-link {
-      color: var(--black-color);
+      position: relative;
+      color: var(--white-color);
       text-decoration: none;
-      line-height: 50px;
-      transition: 0.3s;
+      line-height: 35px;
+      cursor: pointer;
     }
 
-    .nav-item:hover {
-      filter: invert(41%) sepia(35%) saturate(3271%) hue-rotate(195deg) brightness(99%) contrast(87%);
+    .nav-link:after {
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      content: "";
+      transition: width 0.5s ease-out;
     }
-  
+
+    .nav-link:hover:after,
+    .nav-link:focus:after {
+	width: 100%;
+}
+
     .be {
       padding-right: 13px;
     }
   
     .pl {
       padding-left: 11px;
-      padding-right: 35px;
+      padding-right: 11px;
     }
   
     .be,
     .pl {
-      color: var(--black-color);
+      position: relative;
+      color: var(--white-color);
       text-decoration: none;
       line-height: 50px;
       cursor: pointer;
-      transition: 0.3s;
+    }
+
+    .be:after,
+    .pl:after {
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: white;
+      content: "";
+      transition: width 0.3s ease-out;
     }
   
-    .be:hover,
-    .pl:hover,
-    .be.active,
-    .pl.active {
-      color: cornflowerblue;
+    .be:hover:after,
+    .pl:hover:after,
+    .be:focus:after,
+    .pl:focus:after {
+      width: 100%;
     }
   
     .logo {
       transition: 0.3s;
-      height: 80px;
-      width: 80px;
+      height: 90px;
+      width: 90px;
       cursor: pointer;
-      margin: 0;
-      margin-bottom: -55px;
-      margin-left: 20px;
+      margin: 20px;
+      margin-bottom: -100px;
+      margin-left: 70px;
       color: var(--white-color);
-      border-radius: 50px;
       }
   
       .logo:hover {
