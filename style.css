@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Manrope;
-   src: url("assets/fonts/Manrope-Light.ttf");
+  font-family: PoiretOne;
+   src: url("assets/fonts/PoiretOne-Regular.ttf");
  }
   
  :root {
@@ -86,7 +86,7 @@
     .nav {
       display: flex;
       justify-content: space-evenly;
-      font-family: Manrope;
+      font-family: PoiretOne;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
@@ -206,7 +206,7 @@
   
     .pl {
       padding-left: 11px;
-      padding-right: 11px;
+      padding-right: 35px;
     }
   
     .be,
@@ -231,10 +231,13 @@
     }
   
     .be:hover:after,
-    .pl:hover:after,
-    .be:focus:after,
-    .pl:focus:after {
+    .be:focus:after {
       width: 100%;
+    }
+
+    .pl:hover:after,
+    .pl:focus:after {
+      width: 50%;
     }
   
     .logo {
@@ -278,7 +281,7 @@
     margin-top: 100px;
     color: var(--skin-color-two);
     margin-bottom: 60px;
-    font-family: Comfortaa;
+    font-family: PoiretOne;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -307,54 +310,54 @@
        height: 330px;
        margin-top: -700px;
        margin-bottom: 310px;
-       margin-left: 84px;
+       margin-left: 85px;
    }
   
    .h1 {
     padding: 0;
-    width: 500px;
-    height: 120px;
+    width: 820px;
+    height: 105px;
     margin-top: 0;
     margin-bottom: 10px;
-    font-family: Comfortaa;
+    font-family: PoiretOne;
     font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 100px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 105px;
     color: var(--white-color-two);
    }
   
    .button-hero {
-    font-family: Comfortaa;
+    margin-left: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: PoiretOne;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     text-align: center;
-    width: 220px;
-    height: 55px;
-    font-size: 20px;
-    line-height: 40px;
-    margin-top: 55px;
-    border: 0;
-    background-color: var(--skin-color);
+    width: 540px;
+    font-size: 60px;
+    line-height: 75px;
+    margin-top: 150px;
+    border: 3px solid #FFFFFF;
+    border-radius: 72.5px;
     color: var(--white-color);
     cursor: pointer;
    }
   
-   .button-hero:hover,.button-hero:focus{
-    box-shadow: 0 0.5em 0.5em -0.4em var(--white-color) ;
-    transform: translateY(-0.65em);
-   color: var(--skin-color);
-   background-color: var(--white-color);
-   border: solid var(--white-color)}
+   .button-hero:hover,.button-hero:focus {
+      color: var(--white-color);
+      background-color: transparent;
+      border: solid white;
+    }
   
    .text {
-   width: 200px;
-   height: 100px;
-   font-family: Comfortaa;
+   width: 440px;
+   height: 60px;
+   font-family: PoiretOne;
    font-style: normal;
-   font-weight: bold;
-   font-size: 20px;
-   line-height: 50px;
+   font-weight: 300;
+   font-size: 40px;
+   line-height: 60px;
    color: var(--white-color);
    }
   
