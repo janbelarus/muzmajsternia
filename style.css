@@ -1,6 +1,19 @@
 @font-face {
   font-family: PoiretOne;
    src: url("assets/fonts/PoiretOne-Regular.ttf");
+   font-weight: 400;
+ }
+
+ @font-face {
+  font-family: Manrope;
+   src: url("assets/fonts/Manrope-ExtraLight.ttf");
+   font-weight: 400;
+ }
+
+ @font-face {
+  font-family: RobotoFlex;
+   src: url("assets/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf");
+   font-weight: 300;
  }
   
  :root {
@@ -86,7 +99,7 @@
     .nav {
       display: flex;
       justify-content: space-evenly;
-      font-family: PoiretOne;
+      font-family: Manrope;
       font-style: normal;
       font-weight: normal;
       font-size: 20px;
@@ -252,7 +265,7 @@
       }
   
       .logo:hover {
-        filter: invert(0%) sepia(60%) saturate(537%) hue-rotate(27deg) brightness(114%) contrast(101%);
+        filter: invert(54%) sepia(45%) saturate(1059%) hue-rotate(191deg) brightness(99%) contrast(88%);;
         }      
   
   .main {
@@ -281,7 +294,7 @@
     margin-top: 100px;
     color: var(--skin-color-two);
     margin-bottom: 60px;
-    font-family: PoiretOne;
+    font-family: Manrope;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -328,16 +341,15 @@
    }
   
    .button-hero {
-    margin-left: 300px;
+    margin-left: 545px;
     background: rgba(0, 0, 0, 0.5);
-    font-family: PoiretOne;
+    font-family: RobotoFlex;
     font-style: normal;
-    font-weight: 300;
     text-align: center;
-    width: 540px;
-    font-size: 60px;
+    width: 300px;
+    font-size: 35px;
     line-height: 75px;
-    margin-top: 150px;
+    margin-top: 155px;
     border: 3px solid #FFFFFF;
     border-radius: 72.5px;
     color: var(--white-color);
@@ -353,7 +365,7 @@
    .text {
    width: 440px;
    height: 60px;
-   font-family: PoiretOne;
+   font-family: RobotoFlex;
    font-style: normal;
    font-weight: 300;
    font-size: 40px;
