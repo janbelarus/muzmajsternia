@@ -401,7 +401,7 @@
   
   .skills-item {
   width: 60px;
-  height: 50px;
+  height: 60px;
   margin-left: 0;
   margin: 0 auto;
   }
@@ -416,8 +416,8 @@
    color: var(--white-color);
    margin-bottom: 10px;
    margin-left: 20px;
-   width: 280px;
-   height: 70px;
+   width: 290px;
+   height: 100px;
   }
   
   .skill-title {
@@ -431,17 +431,18 @@
   font-size: 30px;
   line-height: 55px;
   color: var(--white-color);
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 20px;
   }
   
-  .photo {
+  .portfolio {
   width: 1440px;
-  height: 1500px;
+  height: 1200px;
+  background: url('./assets/img/photo_bg.jpg');
   } 
   
-  .photo-buttons {
+  .portfolio-buttons {
   display: flex;
   justify-content: center;
   width: 895px;
@@ -450,54 +451,53 @@
   margin-bottom: 60px;
   }
   
-  .photo-button {
-  width: 220px;
-  height: 55px;
-  font-family: Comfortaa;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  margin-right: 5px;
-  color: var(--black-color-two);
-  background-color: var(--white-color-two);
-  cursor: pointer;
-  }
-  
-  .photo-button:hover, .photo-button:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em var(--white-color) ;
-    transform: translateY(-0.65em);
-    color: var(--white-color);
-    background-color: var(--skin-color);
-    border: solid cornflowerblue;}
-  
-  .photo-button.active {
+  .portfolio-button {
+    font-family: RobotoFlex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 220px;
+    line-height: 40px;
+    border: 3px solid #FFFFFF;
+    border-radius: 72.5px;
     color: var(--white-color-two);
-    background-color: var(--skin-color-two);
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-right: 5px;
   }
-  
-  .photo-button.active:hover,.photo-button.active:focus {
-    box-shadow: 0 0.5em 0.5em -0.4em var(--white-color) ;
-    transform: translateY(-0.65em);
+
+  .portfolio-button:hover,.portfolio-button:focus {
     color: var(--white-color);
     background-color: transparent;
-    border: solid cornflowerblue;
+    border: solid white;
   }
   
+  portfolio-button.active {
+    color: var(--white-color);
+    background-color: transparent;
+    border: solid white;
+  }
+
+  .portfolio-button.active:hover,.portfolio-button.active:focus {
+    color: var(--white-color);
+    background-color: transparent;
+    border: solid white;
+  }
+
   .portfolio-photo {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-content: space-between;
-  width: 1400px; 
-  height: 1150px; 
+  align-content: space-between; 
+  height: 830px; 
   margin: 0 auto;
   }
   
-  .photo-image {
-  width: 450px; 
-  height: 560px; 
+  .portfolio-image {
+  width: 470px; 
+  height: 390px; 
   }
   
   .player {
