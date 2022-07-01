@@ -251,7 +251,7 @@
     align-items: center;
     width: 700px;
     height: 80px;
-    margin-left: 370px;
+    margin-left: 675px;
     margin-top: 100px;
     color: var(--white-color-two);
     margin-bottom: 60px;
@@ -302,7 +302,7 @@
    }
   
    .button-hero {
-    margin-left: 545px;
+    margin-left: 780px;
     background: rgba(0, 0, 0, 0.5);
     font-family: RobotoFlex;
     font-style: normal;
@@ -348,7 +348,7 @@
   .skills-list {
   background: rgba(0, 0, 0, 0.35);
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   text-align: center;
   width: 1920px;
   height: 500px;
@@ -358,13 +358,15 @@
   .skills-items {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   width: 320px;
   height: 240px;
-  margin-top: 50px;
+  margin: 30px 30px;
   }
   
   .skills-item {
+  display: flex;
+  justify-content: center;
   width: 60px;
   height: 60px;
   margin-left: 0;
@@ -373,6 +375,7 @@
   
   .skill-text {
    display: flex;
+   justify-content: center;
    font-family: Manrope;
    font-style: normal;
    font-weight: 200;
@@ -416,7 +419,7 @@
   justify-content: center;
   width: 895px;
   height: 55px;
-  margin-left: 272px;
+  margin-left: 570px;
   margin-bottom: 60px;
   }
   
@@ -462,12 +465,12 @@
   align-content: space-between; 
   width: 1920px;
   height: 845px; 
-  margin: 0 auto;
+  margin: -30px 0px;
   }
   
   .portfolio-image {
-  width: 540px; 
-  height: 420px; 
+  width: 600px; 
+  height: 400px; 
   }
   
   .video {
@@ -481,14 +484,14 @@
     } 
 
   .player {
-position: relative;
+position: absolute;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 1440px;
 height: 720px;
-margin: 0 auto;
+margin: 10px 50px;
   }
   
   .player__video {
@@ -640,6 +643,11 @@ margin: 0 auto;
     cursor: pointer;
   }
   
+  .mentors-image {
+    width:400px; 
+    height: 400px; 
+    }
+
   .contact {
     width: 1920px;
   height: 1200px;
@@ -661,11 +669,12 @@ margin: 0 auto;
       }
       
       .info-list {
-      display: flex;
-      justify-content: space-around;
-      width: 1920px;
-      height: 505px;
-      padding: 5px;
+        display: flex;
+        justify-content: left;
+        align-content: space-between; 
+        width: 1920px;
+        height: 845px; 
+        margin: 0px 20px;
       }
       
       .info-item {
@@ -687,7 +696,7 @@ margin: 0 auto;
        font-family: Manrope;
        font-style: normal;
        font-weight: 200;
-       font-size: 30px;
+       font-size: 20px;
        line-height: 40px;
        text-align: center;
        color: var(--white-color);
@@ -728,7 +737,7 @@ margin: 0 auto;
   justify-content: space-between;
   align-content: center;
   }
-  
+
   .inst {
   display: flex;
   justify-content: space-between;
@@ -736,7 +745,8 @@ margin: 0 auto;
   color: var(--black-color);
   width: 188px;
   height: 50px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   padding-top: 10px;
   }
   
@@ -748,11 +758,7 @@ margin: 0 auto;
   }
   
   .foot-ico:hover {
-    color: white;
-  }
-  
-  .foot-ico:hover {
-    filter: invert(0%) sepia(60%) saturate(537%) hue-rotate(27deg) brightness(114%) contrast(101%);
+    filter: invert(54%) sepia(45%) saturate(1059%) hue-rotate(191deg) brightness(99%) contrast(88%);
   }
   
   }
