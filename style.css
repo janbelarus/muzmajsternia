@@ -38,7 +38,7 @@
   html {
     scroll-behavior: smooth; 
     overflow-x: hidden;
-    background-color: var(--white-color);
+    background-color: var(--black-color);
     height: 100%;
   }
   
@@ -302,15 +302,15 @@
    }
   
    .button-hero {
-    margin-left: 545px;
-    background: rgba(0, 0, 0, 0.5);
+    margin-left: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
     font-family: RobotoFlex;
     font-style: normal;
     text-align: center;
     width: 300px;
     font-size: 35px;
-    line-height: 75px;
-    margin-top: 180px;
+    line-height: 55px;
+    margin-top: 0px;
     border: 3px solid #FFFFFF;
     border-radius: 72.5px;
     color: var(--white-color);
@@ -324,7 +324,7 @@
     }
   
    .text {
-   width: 440px;
+   width: 600px;
    height: 60px;
    font-family: RobotoFlex;
    font-style: normal;
@@ -341,7 +341,7 @@
       background-size: cover;
       background-color: var(--white-color);
       width: 1440px;
-      height: 1080px;
+      height: 910px;
       margin-top: 0;
   }
   
@@ -352,16 +352,16 @@
   text-align: center;
   width: 1440px;
   height: 500px;
-  margin: 100px auto;
+  margin: 0 auto;
   }
   
   .skills-items {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
   width: 320px;
-  height: 240px;
-  margin: 30px 30px;
+  height: 320px;
+  margin: 0 auto;
   }
   
   .skills-item {
@@ -369,7 +369,6 @@
   justify-content: center;
   width: 60px;
   height: 60px;
-  margin-left: 0;
   margin: 0 auto;
   }
   
@@ -382,10 +381,9 @@
    font-size: 20px;
    line-height: 40px;
    color: var(--white-color);
-   margin-bottom: 10px;
-   margin-left: 20px;
    width: 290px;
    height: 100px;
+   margin: 0 auto;
   }
   
   .skill-title {
@@ -399,9 +397,7 @@
   font-size: 30px;
   line-height: 55px;
   color: var(--white-color);
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  margin: 0 auto;
   }
   
   .portfolio {
@@ -738,6 +734,35 @@ margin: 0 auto;
   align-content: center;
   }
 
+  .git {
+    display: flex;
+    justify-content: space-around;
+    width: 182px;
+    height: 50px;
+    color: var(--white-color);
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 15px;
+    transition: 0.3s
+  }
+  
+  .rss {
+  display: flex;
+  justify-content: space-around;
+  color: var(--white-color);
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 40px; 
+  margin-left: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  }
+
   .inst {
   display: flex;
   justify-content: space-between;
@@ -756,10 +781,23 @@ margin: 0 auto;
   transition: 0.3s;
   cursor: pointer;
   }
+
+  .a {
+    text-decoration: none;
+    color: var(--white-color);
+  }
   
   .foot-ico:hover {
     filter: invert(54%) sepia(45%) saturate(1059%) hue-rotate(191deg) brightness(99%) contrast(88%);
   }
+
+  .foot-ico:hover {
+    color: cornflowerblue;
+  }
+    
+    .rss:hover {
+    filter: invert(54%) sepia(45%) saturate(1059%) hue-rotate(191deg) brightness(99%) contrast(88%);
+    }
   
   }
   
@@ -893,11 +931,6 @@ margin: 0 auto;
     text-decoration: none;
     color: var(--white-color);
     }
-  
-    .nav-item:hover {
-      filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
-        contrast(87%);
-    }
     
     .logo {
       transition: 0.3s;
@@ -980,22 +1013,24 @@ margin: 0 auto;
       margin-bottom: 20px;
       font-family: PoiretOne;
       font-style: normal;
-      font-size: 40px;
+      font-size: 30px;
       line-height: 40px;
       color: var(--white-color-two);
      }
     
      .button-hero {
-    margin-left: 0;
+      margin-left: 175px;
     text-align: center;
     font-family: RobotoFlex;
     font-style: normal;
-    width: 200px;
+    width: 300px;
+    height: 55px;
     font-size: 20px;
     line-height: 40px;
     margin-top: 0px;
+    margin-bottom: 100px;
     color: var(--white-color);
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
     border: 3px solid #FFFFFF;
     border-radius: 72.5px;
@@ -1013,46 +1048,46 @@ margin: 0 auto;
      font-family: RobotoFlex;
      font-style: normal;
      font-weight: 300;
-     font-size: 25px;
-     line-height: 35px;
+     font-size: 20px;
+     line-height: 25px;
+     margin-bottom: 20px;
      color: var(--white-color);
      }
     
      .skills {
       width: 768px;
-      height: 1080px;
+      height: 910px;
       margin-left: 0;
     }
     
     .skills-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
-    text-align: left;
+    justify-content: center;
     width: 768px;
-    height: 768px;
-    margin-left: 0;
+    height: 729px;
+    margin: 0 auto;
     }
     
     .skills-items {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     width: 320px;
-    height: 320px;
+    height: 240px;
     margin-top: 0;
-    margin-left: 0;
     }
    
     .skills-item {
     width: 62px;
     height: 50px;
     margin-left: 0;
+    margin: 0 auto;
     }
     
     .skill-text {
      display: flex;
-     text-align: left;
+     text-align: center;
      font-family: Manrope;
      font-style: normal;
      font-weight: 200;
@@ -1060,25 +1095,25 @@ margin: 0 auto;
      line-height: 25px;
      color: var(--white-color);
      margin-bottom: 10px;
-     margin-left: 0px;
+     margin-left: 20px;
      width: 290px;
      height: 50px;
     }
     
     .skill-title {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     width: 280px;
     height: 40px;
     font-family: Manrope;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
     color: var(--white-color);
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 20px;
-    margin-left: 0px;
+    margin-left: 20px;
     }
   
     .portfolio {
@@ -1138,7 +1173,7 @@ margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-content: space-between;
+    align-content: center;
     width: 540px; 
     height: 3485px; 
     margin: 0 auto;
@@ -1190,7 +1225,7 @@ margin: 0 auto;
     background-repeat: no-repeat;
         background-position: 0;
         background-size: cover;
-        background-color: var(--white-color);
+        background-color: var(--black-color);
       }
     
     .info-list {
@@ -1201,7 +1236,7 @@ margin: 0 auto;
     flex-wrap: wrap;
     width: 768px;
     height: 1615px;
-    margin: 0px 20px;
+    margin: 0px auto;
     }
     
     .info-item {
@@ -1259,7 +1294,7 @@ margin: 0 auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0;
-    background-color: var(--white-color);
+    background-color: var(--black-color);
     }
     
     .footer {
@@ -1278,6 +1313,34 @@ margin: 0 auto;
     align-content: center;
     width: 210px;
     height: 144px;
+    }
+
+    .git {
+      width: 182px;
+      height: 50px;
+      color: var(--white-color);
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 25px;
+      line-height: 40px;
+      margin: 0;
+      transition: 0.3s
+    }
+    
+    .rss {
+    display: flex;
+    justify-content: space-around;
+    color: var(--white-color);
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px; 
+    margin: 0;
+    transition: 0.3s;
+    cursor: pointer;
     }
     
     .inst {
@@ -1298,6 +1361,10 @@ margin: 0 auto;
     cursor: pointer;
     }
     
+    .rss:hover {
+      filter: invert(54%) sepia(45%) saturate(1059%) hue-rotate(191deg) brightness(99%) contrast(88%);
+      }
+
     .foot-ico:hover {
     filter: invert(54%) sepia(45%) saturate(1059%) hue-rotate(191deg) brightness(99%) contrast(88%);
     }
